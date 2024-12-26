@@ -26,7 +26,12 @@ body {
 }
 
 .displayScreen {
-  background-color: #b4e761;
+  background: rgb(74, 92, 46);
+  background: linear-gradient(
+    180deg,
+    rgba(74, 92, 46, 1) 0%,
+    rgba(180, 231, 97, 1) 100%
+  );
   color: #fff;
   display: flex;
   flex-direction: column;
