@@ -109,6 +109,7 @@ export class Calculator {
   }
 
   private backspace(): void {
+    if (this.calculated) return;
     this.calculated = false;
     const currentText = this.display.textContent ?? '';
 
