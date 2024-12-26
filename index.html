@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Odin Calculator</title>
+</head>
+
+<body>
+  <main>
+    <h4 class="title">Calculator made by Mario for The Odin Project</h4>
+    <div class="calculator">
+      <h3 class="calcName">Mario fx-991EX</h3>
+      <div class="displayScreen">
+        <sup class="previousNumber"></sup>
+        <h3 class="display"></h3>
+      </div>
+      <div class="buttons">
+        <button class="button clear" onclick="clearEverything()">C</button>
+        <button class="button backspace" onclick="backspace()">⌫</button>
+        <button class="button operations" onclick="setOperator('%')">%</button>
+        <button class="button operations" onclick="setOperator('/')">/</button>
+        <button class="button" onclick="addNumber(7)">7</button>
+        <button class="button" onclick="addNumber(8)">8</button>
+        <button class="button" onclick="addNumber(9)">9</button>
+        <button class="button operations" onclick="setOperator('*')">*</button>
+        <button class="button" onclick="addNumber(4)">4</button>
+        <button class="button" onclick="addNumber(5)">5</button>
+        <button class="button" onclick="addNumber(6)">6</button>
+        <button class="button operations" onclick="setOperator('-')">-</button>
+        <button class="button" onclick="addNumber(1)">1</button>
+        <button class="button" onclick="addNumber(2)">2</button>
+        <button class="button" onclick="addNumber(3)">3</button>
+        <button class="button operations" onclick="setOperator('+')">+</button>
+        <button id="period" class="button" onclick="setPeriod()">.</button>
+        <button class="button" onclick="addNumber(0)">0</button>
+        <button class="button equals" onclick="operate()">=</button>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
