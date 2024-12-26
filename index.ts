@@ -1,4 +1,3 @@
-// Declare the functions as global
 declare global {
   interface Window {
     addNumber: (value: string | number) => void;
