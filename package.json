@@ -1,11 +1,13 @@
 {
   "homepage": "https://mprskalo01.github.io/the-odin-calculator",
   "scripts": {
+    "test": "vitest",
     "predeploy": "parcel build index.html --dist-dir dist --public-url /the-odin-calculator/",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0",
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "vitest": "^2.1.8"
   }
 }
